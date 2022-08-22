@@ -24,6 +24,19 @@ Make sure to replace the API KEY with your own.
 
 ![Alt Text](https://media.giphy.com/media/CnhXn5Z9OUCYTzBAVr/giphy.gif)
 
+---
+
+<h1>Screenshots 📸</h1>
+
+<h3>SuperToken Sign In / Sign Up Screen</h3>
+<img width="1624" alt="Screenshot 2022-08-23 at 00 25 24" src="https://user-images.githubusercontent.com/109458126/186037206-e472ed02-0c4b-4b4e-97e8-02845308a332.png">
+
+<h3>Permit.io Policy Editor</h3>
+<img width="1624" alt="Screenshot 2022-08-23 at 00 32 04" src="https://user-images.githubusercontent.com/109458126/186037523-12e23b42-e076-4694-95a6-91e7e5857b87.png">
+
+<h3>User viewing their own account (as Admin)</h3>
+<img width="1624" alt="Screenshot 2022-08-23 at 00 28 20" src="https://user-images.githubusercontent.com/109458126/186037230-4496435d-432c-4a80-be3d-4722e33bce5b.png">
+
 --- 
 
 <h3>Still here? Star Permit and SuperTokens on Github!</h3>
