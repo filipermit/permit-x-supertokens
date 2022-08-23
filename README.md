@@ -13,11 +13,13 @@ Navigate to the documentation for the step-by-step [instructions](https://docs.p
 <h3>2. Start the app</h3>
 
 ```npm install``` followed by ```npm run dev```
+<br /><br />
+Once the app starts, navigate to ```localhost:3000```
 
 <h3>3. Run the Policy Decision Point (PDP)</h3>
 
 ```docker run -p 7766:7000 --env PDP_API_KEY=<YOUR_PERMIT_API_KEY> permitio/pdp```
-<br />
+<br /><br />
 Make sure to replace the API KEY with your own.
 
 <h3>4. Enjoy the demo!</h3>
