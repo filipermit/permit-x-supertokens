@@ -1,5 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/api/auth/[[...path]]": "pages/api/auth/[[...path]].js",
+  "/demo": "pages/demo.js",
+  "/api/auth/getGPG": "pages/api/auth/getGPG.js",
+  "/": "pages/index.js",
+  "/api/auth/permit": "pages/api/auth/permit.js",
+  "/auth/[[...path]]": "pages/auth/[[...path]].js"
 }

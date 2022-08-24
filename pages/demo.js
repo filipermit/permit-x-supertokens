@@ -256,6 +256,21 @@ function LearnMoreBadgeCard({
 	);
 }
 
+// Fetches the GPG key stored in the backend.
+const fetchGPG = async () => {
+	let GPGKey;
+
+	const res = await fetch("/api/auth/getGPG");
+	if (res.status === 200) {
+		const json = await res.json();
+		GPGKey = json.gpg;
+	}
+
+	alert(GPGKey);
+
+	return GPGKey;
+};
+
 function ButtonCopy() {
 	const clipboard = useClipboard();
 	return (
@@ -288,9 +303,7 @@ function ButtonCopy() {
 					},
 					rightIcon: { marginLeft: 22 },
 				}}
-				onClick={() =>
-					clipboard.copy("SAMPLE KEY: DKdkdl459sl4wdsk7KDMMDdQw4w9WgXcQ")
-				}
+				onClick={() => clipboard.copy(fetchGPG())}
 			>
 				Copy GPG Key
 			</Button>
